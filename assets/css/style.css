@@ -1,36 +1,69 @@
 body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
+}
+
+h1{
+	color:#ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+}
+
+h2{
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#nameTag{
+	position:fixed;
+	left:50px;
+	background:#4aaaa5;
+	width:200px;
+	height:60px;
 }
 
 #navBar {
-	background: red;
+	background: #666666;
+	height:60px;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 }
 
-.flavorText{
-	background: gray;
-	float:left;
-	margin: 10px;
+.navBox{
+	position:fixed;
+	left:580px;
+	width:200px;
+	height:60px;
+	background: #ffffff;
+}
 
+.flavorText{
+	color:#777777;
+	background: #ffffff;
+	float:left;
+	margin: 50px 0px 0px 50px;
 	width: 550px;
 
 }
 
 #wrapper{
-	margin:0 auto;
+	float:left;
+	background-image: url("../images/wavegrid.png");
+	border: 0px;
+	padding: 0px;
 	width:960px;
+	margin:0px auto;
 }
 
 .social{
-	margin:10px;
 	float:left;
+	margin:50px;
 	padding: 5px;
 	width:250px;
-	background: blue;
+	background: #ffffff;
 
 }
 
@@ -42,6 +75,9 @@ img.med {
 }
 
 #footer{
-	background: gray;
+	height:60px;
+	background: #666666;
+	border: 0px;
+	padding: 0px;
 	clear:both;
 }
