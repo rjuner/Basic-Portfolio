@@ -8,6 +8,7 @@ h1{
 	color:#ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
+	margin: 0px;
 }
 
 h2{
@@ -21,7 +22,7 @@ a{
 }
 
 #nameTag{
-	position:fixed;
+	position:absolute;
 	left:100px;
 	background:#4aaaa5;
 	width:150px;
@@ -39,11 +40,18 @@ a{
 }
 
 .navBox{
-	position:fixed;
-	left:580px;
-	width:200px;
-	height:60px;
-	background: #ffffff;
+	position:absolute;
+	top:25px;
+	right:125px;
+	width:300px;
+	height:10px;
+}
+
+.nav{
+	float: left;
+	padding: 5px;
+	margin:3px;
+	border-right: solid 1px #cccccc;
 }
 
 .flavorText{
@@ -58,14 +66,14 @@ a{
 
 }
 
-#wrapper{
+#main{
 	float:left;
 	background-image: url("../images/wavegrid.png");
 	width: 100%;
 }
 
 .social{
-	position: fixed;
+	position: absolute;
 	left: 700px;
 	float:left;
 	margin: 25px;
@@ -73,8 +81,11 @@ a{
 	width:250px;
 	background: #ffffff;
 	border: solid 1px #cccccc;
+}
 
-
+.socLinks{
+	float:left;
+	margin: 0px 32px; 
 }
 
 img.med {
@@ -85,6 +96,9 @@ img.med {
 }
 
 #footer{
+	font-style: italic;
+	font-size: 10px; 
+	text-align: center;
 	border-top: solid 4px #4aaaa5;
 	height:60px;
 	background: #666666;
