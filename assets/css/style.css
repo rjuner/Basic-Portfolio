@@ -7,13 +7,19 @@ body{
 h1{
 	color:#ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	font-weight: bold;
 	text-align: center;
 	margin: 0px;
+	padding: 10px;
 }
 
 h2{
 	color:#4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0px;
 }
 
 a{
@@ -55,10 +61,18 @@ a{
 }
 
 input[type=text]{
-	background: red;
-	width: 50%;
+    height:25px; 
+    width: 275px; 
+    margin:10px 10px 10px 0px;
+
 }
 
+textarea{
+    height:100px; 
+    width: 275px; 
+    margin:10px 10px 10px 0px;
+
+}
 .flavorText{
 	color:#777777;
 	background: #ffffff;
@@ -67,8 +81,6 @@ input[type=text]{
 	padding: 20px;
 	width: 550px;
 	border: solid 1px #cccccc;
-
-
 }
 
 #main{
@@ -91,6 +103,16 @@ input[type=text]{
 .socLinks{
 	float:left;
 	margin: 0px 32px; 
+}
+
+
+section.project{
+	border-color: pink;
+	border-style: dashed;
+	border-width: 3px;
+}
+
+div.label{
 }
 
 img.med {
