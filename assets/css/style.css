@@ -25,6 +25,7 @@ h2{
 a{
 	color: #777777;
 	text-decoration: none;
+	padding: 2px;
 }
 
 p{
@@ -89,7 +90,7 @@ textarea{
 
 #main{
 	float:left;
-	/* background-image: url("../images/wavegrid.png"); */
+	background-image: url("../images/wavegrid.png");
 	width: 100%;
 }
 
@@ -104,6 +105,9 @@ textarea{
 	border: solid 1px #cccccc;
 }
 
+form{
+	margin: 15px;
+}
 .socLinks{
 	float:left;
 	margin: 15px; 
