@@ -27,6 +27,10 @@ a{
 	text-decoration: none;
 }
 
+p{
+	margin: 10px;
+}
+
 #nameTag{
 	position:absolute;
 	left:100px;
@@ -94,7 +98,7 @@ textarea{
 	left: 700px;
 	float:left;
 	margin: 25px;
-	padding: 5px;
+	padding: 25px;
 	width:250px;
 	background: #ffffff;
 	border: solid 1px #cccccc;
@@ -102,9 +106,9 @@ textarea{
 
 .socLinks{
 	float:left;
-	margin: 0px 32px; 
+	margin: 15px; 
+	padding: 10px;
 }
-
 
 /* section.project{
 	border-color: pink;
@@ -112,9 +116,6 @@ textarea{
 	border-width: 3px;
 }
 */
-
-div.label{
-}
 
 img.med {
 	width: 250px;
