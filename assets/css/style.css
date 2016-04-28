@@ -85,7 +85,7 @@ textarea{
 
 #main{
 	float:left;
-	background-image: url("../images/wavegrid.png");
+	/* background-image: url("../images/wavegrid.png"); */
 	width: 100%;
 }
 
@@ -106,11 +106,12 @@ textarea{
 }
 
 
-section.project{
+/* section.project{
 	border-color: pink;
 	border-style: dashed;
 	border-width: 3px;
 }
+*/
 
 div.label{
 }
